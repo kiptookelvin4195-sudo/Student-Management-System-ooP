@@ -1,0 +1,11 @@
+Student Management System (OOP Implementation) 🎓📌 Project OverviewThis project is a simple Student Management System developed for the Object Oriented Software Design Methods course. The application demonstrates how to design and implement a software solution using Java and core OOP principles.The system manages student data, handles course assignments, and automatically calculates academic grades based on performance marks.🛠️ OOP Principles DemonstratedThis project specifically implements the four pillars of Object-Oriented Programming as required:PrincipleImplementation Details1. AbstractionUses an abstract class Person to define the blueprint for all individuals in the system, ensuring specific implementations for details.2. InheritanceThe Student class extends Person, inheriting basic attributes (like name) while adding specialized student data.3. EncapsulationSensitive data like studentId and marks are set to private. Access is strictly controlled via constructors and getter/setter methods.4. PolymorphismThe displayDetails() method is overridden in the Student class to provide a custom output format specific to students.📂 Class StructureThe system is built using three primary classes to ensure a clean separation of concerns:Person (Abstract Class): The base template for any person in the system.Course (Helper Class): Manages course titles and codes (Demonstrates Composition).Student (Subclass): The main logic class that handles grade calculations.StudentManagementSystem (Main): The entry point used to instantiate objects and run the program.🚀 How to Run the ProgramClone the Repository:Bashgit clone https://github.com/YOUR_USERNAME/Student-Management-System.git
+Compile the Java files:Bashjavac StudentManagementSystem.java
+Run the Application:Bashjava StudentManagementSystem
+📊 Sample OutputWhen executed, the system produces the following formatted report:Plaintext------- STUDENT REPORT -------
+Student ID : 1001
+Full Name  : Alice Munene
+Course     : SIT202 - Software Design
+Score      : 85.5%
+Final Grade: A (Excellent)
+------------------------------
+📝 AuthorName: KELVIN KIPTOO ROTICH Course: Object Oriented Software Design MethodsAssessment: Project-Based CAT
